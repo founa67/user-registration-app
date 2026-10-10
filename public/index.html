@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Registration</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <main class="card">
+    <h1>Create Your Account</h1>
+    <form id="registerForm" novalidate>
+      <label>
+        First Name
+        <input type="text" id="firstName" name="firstName" required />
+      </label>
+      <label>
+        Last Name
+        <input type="text" id="lastName" name="lastName" required />
+      </label>
+      <label>
+        Email
+        <input type="email" id="email" name="email" required />
+      </label>
+      <button type="submit">Register</button>
+      <p id="message" class="message"></p>
+    </form>
+  </main>
+  <script src="/js/form.js"></script>
+</body>
+</html>
